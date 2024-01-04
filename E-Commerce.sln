@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33801.447
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{ED1FF398-6A72-49DC-BB29-3418E70A474D}"
 EndProject
@@ -31,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Photostock", "Photostock", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comment", "Comment", "{70A9231B-75E2-4ED4-B15C-D6D339A681AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Services.Catalog", "Services\Catalog\E-Commerce.Services.Catalog\E-Commerce.Services.Catalog.csproj", "{AA180670-6363-4AA3-9466-F67573CC1396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Services.Catalog", "Services\Catalog\E-Commerce.Services.Catalog\E-Commerce.Services.Catalog.csproj", "{AA180670-6363-4AA3-9466-F67573CC1396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Shared", "Shared\E-Commerce.Shared\E-Commerce.Shared.csproj", "{6D5D43B2-2BBC-466C-937C-735378CE2964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{AA180670-6363-4AA3-9466-F67573CC1396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA180670-6363-4AA3-9466-F67573CC1396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA180670-6363-4AA3-9466-F67573CC1396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5D43B2-2BBC-466C-937C-735378CE2964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5D43B2-2BBC-466C-937C-735378CE2964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5D43B2-2BBC-466C-937C-735378CE2964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5D43B2-2BBC-466C-937C-735378CE2964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{CA1C2C08-4BE9-4D20-8E80-11B9BFEAEF29} = {ED1FF398-6A72-49DC-BB29-3418E70A474D}
 		{70A9231B-75E2-4ED4-B15C-D6D339A681AF} = {ED1FF398-6A72-49DC-BB29-3418E70A474D}
 		{AA180670-6363-4AA3-9466-F67573CC1396} = {067F0967-053E-41B6-94A0-C9C054EFCE12}
+		{6D5D43B2-2BBC-466C-937C-735378CE2964} = {486AC5B9-6DD1-4506-990C-DC7A4ACE420D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB5B7F6C-E7AA-4FC6-996A-28FED120CAC2}
