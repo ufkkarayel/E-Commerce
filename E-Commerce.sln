@@ -31,7 +31,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Photostock", "Photostock", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comment", "Comment", "{70A9231B-75E2-4ED4-B15C-D6D339A681AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Services.Catalog", "Services\Catalog\E-Commerce.Services.Catalog\E-Commerce.Services.Catalog.csproj", "{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -44,6 +56,7 @@ Global
 		{38B49BE3-0607-4E61-9CCB-47FD555DB9A2} = {ED1FF398-6A72-49DC-BB29-3418E70A474D}
 		{CA1C2C08-4BE9-4D20-8E80-11B9BFEAEF29} = {ED1FF398-6A72-49DC-BB29-3418E70A474D}
 		{70A9231B-75E2-4ED4-B15C-D6D339A681AF} = {ED1FF398-6A72-49DC-BB29-3418E70A474D}
+		{EEFD1AC6-6A67-4985-A6C4-FF7681BBE659} = {067F0967-053E-41B6-94A0-C9C054EFCE12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB5B7F6C-E7AA-4FC6-996A-28FED120CAC2}
