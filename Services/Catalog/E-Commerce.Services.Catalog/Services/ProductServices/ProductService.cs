@@ -38,7 +38,7 @@ namespace E_Commerce.Services.Catalog.Services.ProductServices
 
         }
 
-        public async Task<ResultProductDto> GetProductAsync(string id)
+        public async Task<ResultProductDto> GetProductById(string id)
         {
             var values = await _productCollection.Find(x => x.ProductID == id).FirstOrDefaultAsync();
             return _mapper.Map<ResultProductDto>(values);
