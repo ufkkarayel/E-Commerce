@@ -28,7 +28,7 @@ namespace E_Commerce.Services.Catalog.Services.CategoryServices
 
         public async Task DeleteCategoryAsync(string id)
         {
-            var values = await _categoryCollection.DeleteOneAsync(id);
+            var values = await _categoryCollection.DeleteOneAsync(x=>x.CategoryID== id);
 
         }
 
@@ -44,10 +44,12 @@ namespace E_Commerce.Services.Catalog.Services.CategoryServices
             return _mapper.Map<ResultCategoryDto>(values);
         }
 
-        public async void UpdateCategoryAsync(UpdateCategoryDto updateCategoryDto)
+        public async Task UpdateCategoryAsync(UpdateCategoryDto updateCategoryDto)
         {
             var values = _mapper.Map<Category>(updateCategoryDto);
             await _categoryCollection.FindOneAndReplaceAsync(x => x.CategoryID == updateCategoryDto.CategoryID, values);
         }
+
+      
     }
 }
